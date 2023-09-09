@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "baseUrl": "./src",
+        "target": "ESNext",
+        "module": "CommonJS",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "paths": {
+            "csstype": ["node_modules/csstype"]
+        },
+        "moduleResolution":"node"
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+, "src/components/users/SignIn.tsx"    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,34 @@
+.plot-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .plot-feature {
+    display: flex;
+    justify-content: space-between;
+    width: 300px; /* Vous pouvez ajuster la largeur selon vos besoins */
+    padding: 5px 0; /* Espacement entre chaque caractéristique */
+    border-bottom: 1px solid #ccc; /* Ajoute une bordure en bas de chaque caractéristique */
+  }
+  
+  .feature-name {
+    font-weight: bold;
+  }
+  
+  .add-button {
+    margin-left: 10px; /* Espacement entre le texte et le bouton */
+  }
+  
+  .series {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sub-plot,
+  .event {
+    display: flex;
+    align-items: center;
+    margin: 5px 0; /* Espacement entre chaque élément */
+  }
